@@ -37,8 +37,8 @@ public class FeedAdapter extends ArrayAdapter {
         TextView tvArtist= (TextView) convertView.findViewById(R.id.tvArtist);
         TextView tvSummary=(TextView) convertView.findViewById(R.id.tvSummary);
 
-        FeedEntry currentApps=applications.get(position);
 
+        FeedEntry currentApps=applications.get(position);
         tvName.setText(currentApps.getName());
         tvArtist.setText(currentApps.getArtist());
         tvSummary.setText(currentApps.getSummary());
